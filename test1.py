@@ -13,7 +13,7 @@ if "current_page" not in st.session_state:
 st.set_page_config(page_title='Axtria Newsletter', layout='wide')
 
 # Load data from the Excel file
-file_path = r'text.xlsx'  # Update with the correct path to your Excel file
+file_path = r'https://github.com/gurpreetsondhi1/Newsletter/blob/bc8754ed45fc3943d409d228e32b5d5d605073a3/text.xlsx'  # Update with the correct path to your Excel file
 
 try:
     # Read the Excel file into a DataFrame
